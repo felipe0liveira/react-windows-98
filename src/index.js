@@ -1,4 +1,5 @@
 import "98.css/dist/98.css"
+import React from "react"
 
 export const Window = ({ title, children }) => {
   return (
