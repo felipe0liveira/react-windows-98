@@ -1,7 +1,7 @@
 import "98.css/dist/98.css"
 import React from "react"
 
-export const Window = ({ title, children }) => {
+const Window = ({ title, children }) => {
   return (
     <div className='window'>
       <div className='title-bar'>
@@ -16,3 +16,5 @@ export const Window = ({ title, children }) => {
     </div>
   )
 }
+
+module.exports = { Window }
