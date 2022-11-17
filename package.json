@@ -1,4 +1,8 @@
 {
   "name": "react-windows-98",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "devDependencies": {
+    "98.css": "^0.1.18"
+  }
 }
